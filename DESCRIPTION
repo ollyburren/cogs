@@ -1,9 +1,11 @@
 Package: cogs
-Title: What the Package Does (one line, title case)
+Title: cogs
 Version: 0.0.0.1
-Authors@R: person("Olly", "Burren", email = "ob219@cam.ac.uk", role = "aut")
+Authors@R: person("Olly", "Burren", email = "ob219@cam.ac.uk", role = "cre")
 Description: Functions to process capture Hi-C calls from CHiCAGO.
-Depends: R (>= 3.3.1),data.table
+Depends: R (>= 3.3.1), data.table,optparse,devtools 
+Imports: data.table,optparse,devtools
 License: MIT
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
